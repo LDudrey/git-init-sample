@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>My New Website</title>
+</head>
+ 
+<body>
+  <header>
+    <nav class="text-right">
+      <ul>
+        <li><a href="https://github.com/LDudrey">Github</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#Contact_Me">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>       
+    <h1 class="text-center">My New Website</h1>   
+    <figure>
+      <img src="./assets/images/blue_background.jpg" alt="blue colored image"/>
+      <figcaption class="text-center">Blah blah blah blah</p>
+    </figure>
+  
+    <section>
+      <h2 id="Contact_Me">Contact Me</h2>
+      <form> 
+        <p class="text-center">
+          Required fields are followed by
+          <strong><span aria-label="required">*</span></strong>.
+        </p>
+        <ul>
+          <li>
+            <label class="text-right" for="Name">Name:<span aria-label="required">*</span></label>
+            <input id="Name" type="text" name="Name" /> 
+          </li>
+          <li>
+            <label class="text-right" for="Email">Email:<span aria-label="required">*</span></label>
+            <input id="Email" type="text" name="Email" />
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">Send</button> 
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    &copy; 2022 My New Website Company
+  </footer>
+</body>
+</html>
